@@ -1,0 +1,403 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html, body {
+    font-family: "Lato", sans-serif;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 43px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    top: 0px;
+    position: fixed;
+}
+
+.header-block {
+    text-decoration: none;
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    color: black;
+    width: 481.25px;
+}
+
+.header-block:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.news {
+    font: 15px;
+    width: 1100px;
+    height: 116.28px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 402px;
+    padding:  0.01em 16px;
+    display: block;
+    text-align: left;
+}
+
+.content {
+    display: block;
+    justify-content: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.h1 {
+    font-weight: 400;
+    font-weight: bolder;
+    margin: 10px 0px;
+    font: 36px "lato", sans-serif;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.h2 {
+    display: flex;
+    position: absolute;
+    margin-top: 515px;
+    margin-left: 45%;
+}
+
+.h2 h2 {
+    font-size: 24px;
+    border-bottom: 6px solid #747474;
+    padding: 10px;
+}   
+
+.texts {
+    display: grid;
+    grid-template-columns:repeat(4, 266.98px);
+    position: absolute;
+    margin-top: 645px;
+    width: 1070px;
+    margin-left: 410px;
+}
+
+#h2 {
+    display: grid;
+    margin-top: 850px;
+    margin-left: 45%;
+    position: absolute;
+}
+
+#h2 h2 {
+    font-size: 24px;
+}
+
+#h2 p {
+    margin-top: -10px;
+    margin-left: -65px;
+}
+
+.texts h2 {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.texts span {
+    font-size: 15px;
+}
+
+.span1 {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.box1 {
+    background-color: #f1f1f1;
+}
+
+.box2 {
+    background-color: #9E9E9E;
+}
+
+.box3 {
+    background-color: #616161;
+    color: white;
+}
+
+.box4 {
+    background-color: #000000;
+    color: white;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 343.33px);
+    text-align: center;
+    grid-gap: 16px;
+    margin-top: 1100px;
+    margin-left: 410px;
+    width: 1070px;
+    height: 537px;
+}
+
+.block1:hover {
+    box-shadow: 3px 3px 10px rgb(190, 190, 190);
+}
+
+.block2:hover {
+    box-shadow: 3px 3px 10px rgb(190, 190, 190);
+}
+
+.block3:hover {
+    box-shadow: 3px 3px 10px rgb(190, 190, 190);
+}
+
+.blocks p {
+    border: 1px solid  rgb(214, 214, 214);
+    margin: 0px;
+    padding: 16px;
+}
+
+.blocks h3 {
+    font-size: 24px;
+    margin: 0px;
+    width: 343.33px;
+    height: 35px;
+    padding: 35px 0px;
+}
+
+#a1 {
+    width: 340px;
+    height: 34px;
+    padding: 30px 0px;
+    border: 1px solid  rgb(214, 214, 214);
+    background-color: #f1f1f1;
+}
+
+#a1 a {
+    border-radius: 5%;
+    padding: 15px 20px;
+    margin: 50px 0px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+}
+
+#a1 a:hover {
+    color: black!important;
+    background-color: rgb(173, 173, 173)!important;
+}
+
+#a2 a:hover {
+    color: black!important;
+    background-color: rgb(173, 173, 173)!important;
+}
+
+#a3 a:hover {
+    color: black!important;
+    background-color: rgb(173, 173, 173)!important;
+}
+
+#a2 {
+    width: 341.33px;
+    height: 35px;
+    padding: 30px 0px;
+    border: 1px solid  rgb(214, 214, 214);
+    background-color: #f1f1f1;
+}
+
+#a2 a {
+    border-radius: 5%;
+    padding: 15px 20px;
+    margin: 50px 0px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+}
+
+#a3 {
+    width: 341.33px;
+    height: 35px;
+    padding: 30px 0px;
+    border: 1px solid  rgb(214, 214, 214);
+    background-color: #f1f1f1;
+}
+
+#a3 a {
+    border-radius: 5%;
+    padding: 15px 20px;
+    margin: 50px 0px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+}
+
+.block1 {
+    border: 1px solid  rgb(214, 214, 214);
+    height: 565px;
+}
+
+.block2 {
+    border: 1px solid  rgb(214, 214, 214);
+    height: 565px;
+
+}
+
+.block3 {
+    border: 1px solid  rgb(214, 214, 214);
+    height: 565px;
+}
+
+.h2-2 {
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 870px;
+}
+
+.h2-2 h2 {
+    font-size: 24px;
+    border-bottom: 6px solid #747474;
+    padding: 10px;
+}
+.rd2blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 343.33px);
+    text-align: left;
+    grid-gap: 16px;
+    margin-top: 205px;
+    margin-left: 410px;
+    width: 1100px;
+    height: 462.27px;
+}
+
+.rd2blocks p, h3 {
+    padding: 0px 15px 0px 15px;
+}
+
+.rd2blocks p {
+    font-size: 15px;
+}
+
+.rd2block1 {
+    box-shadow: 2px 2px 5px 5px rgb(202, 202, 202);
+}
+
+.rd2block2 {
+    box-shadow: 2px 2px 5px 5px rgb(202, 202, 202);
+}
+
+.rd2block3 {
+    box-shadow: 2px 2px 5px 5px rgb(202, 202, 202);
+}
+
+.contact {
+    padding: 8px 16px;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    margin: 8px 16px;
+}
+
+.contact:hover {
+    cursor: pointer;
+    background-color: #b6b5b5;
+}
+
+.tables {
+    display: grid;
+    margin-left: 410px;
+    margin-top: 250px;
+    grid-gap: 10px;
+}
+
+.tables p {
+    margin: -10px;
+    font-size: 15px;
+}
+
+.tables input {
+    padding: 0px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    width: 1068px;
+    height: 40px;
+    cursor: text;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.tables input:hover {
+    border-color: black;
+}
+
+#button-send {
+    width: 1075px;
+    height: 30px;
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#button-send:hover {
+    color: black;
+    background-color: #cccccc;
+}
+
+#footer {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    display: grid;
+    width: 1920px;
+    padding: 32px 16px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: -25px; 
+}
+
+.footer {
+    background-color: black;
+    width: 103px;
+    height: 20px;
+    margin-left: 900px;
+    padding: 8px 16px;
+}
+
+.footer i {
+    color: white;
+    margin-left: -12px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer:hover>* {
+    color: black;
+    background-color: rgb(177, 177, 177);
+}
+
+.site-icons i {
+    margin-top: 30px;
+    color: black;
+    font-size: 25px;
+}
+
+.url {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.url:hover {
+    color: green;
+}
